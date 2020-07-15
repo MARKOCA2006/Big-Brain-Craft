@@ -34,6 +34,8 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.markgames.bigbraincraft.procedures.IncreaseBarrierCountInObstacleProcedure;
+import net.markgames.bigbraincraft.procedures.DecreaseBarrierCountInObstecaleProcedure;
 import net.markgames.bigbraincraft.BigbraincraftModElements;
 import net.markgames.bigbraincraft.BigbraincraftMod;
 
@@ -435,6 +437,28 @@ public class ObstacleGUIGui extends BigbraincraftModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DecreaseBarrierCountInObstecaleProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				IncreaseBarrierCountInObstacleProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

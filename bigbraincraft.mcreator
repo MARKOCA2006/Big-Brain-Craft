@@ -1909,15 +1909,6 @@
       "registry_name": "zinc_armor_boots_recipe"
     },
     {
-      "name": "Hazmatkit",
-      "type": "item",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "hazmatkit"
-    },
-    {
       "name": "Radiation",
       "type": "procedure",
       "sortid": 221,
@@ -2997,15 +2988,6 @@
       "registry_name": "soulore"
     },
     {
-      "name": "XpIncinerator",
-      "type": "block",
-      "sortid": 317,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "xp_incinerator"
-    },
-    {
       "name": "Obstacle",
       "type": "block",
       "sortid": 318,
@@ -3030,7 +3012,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "void_energy"
+      "registry_name": "sould_energy_cell"
     },
     {
       "name": "DecreaseBarrierCountInObstecale",
@@ -3097,6 +3079,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "Hazmatkit",
+      "type": "tool",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hazmatkit"
+    },
+    {
+      "name": "ObstacleProjectorR",
+      "type": "recipe",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obstacle_projector_r"
+    },
+    {
+      "name": "SoulEnergyCellR",
+      "type": "recipe",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soul_energy_cell_r"
+    },
+    {
+      "name": "VoidEnergyFuel",
+      "type": "fuel",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_energy_fuel"
     }
   ],
   "variable_elements": [],
@@ -3104,8 +3122,8 @@
   "language_map": {
     "en_us": {
       "item.bigbraincraft.aluminium_armorhelmet": "Aluminium Helmet",
-      "item.bigbraincraft.zinc_shovel": "Zinc Shovel",
       "item.bigbraincraft.titanium_shovel": "Titanium Shovel",
+      "item.bigbraincraft.zinc_shovel": "Zinc Shovel",
       "item.bigbraincraft.uranium_shovel": "Uranium Shovel",
       "item.bigbraincraft.silver_shovel": "Silver Shovel",
       "block.bigbraincraft.lead_ore": "Lead Ore",
@@ -3173,8 +3191,8 @@
       "item.bigbraincraft.ruby_axe": "Ruby Axe",
       "item.bigbraincraft.sapphire_armorbody": "Sapphire Chestplate",
       "item.bigbraincraft.lead_axe": "Lead Axe",
-      "item.bigbraincraft.hazmatkit": "Hazmat Kit",
       "item.bigbraincraft.ruby_sword": "Ruby Sword",
+      "item.bigbraincraft.hazmatkit": "Hazmat Kit",
       "item.bigbraincraft.locator": "Locator",
       "item.bigbraincraft.carbonsword": "Carbon Sword",
       "block.bigbraincraft.soulore": "Soul Ore",
@@ -3185,7 +3203,6 @@
       "item.bigbraincraft.titanium_armorlegs": "Titanium Leggings",
       "item.bigbraincraft.copper_hoe": "Copper Hoe",
       "block.bigbraincraft.lead_ore_block": "Block of Lead",
-      "item.bigbraincraft.void_energy": "Void Energy Cell",
       "item.bigbraincraft.zinc_axe": "Zinc Axe",
       "item.bigbraincraft.aluminium_shovel": "Aluminium Shovel",
       "item.bigbraincraft.titanium_ingot": "Titanium",
@@ -3199,11 +3216,12 @@
       "item.bigbraincraft.aluminium_ingot": "Aluminium",
       "item.bigbraincraft.lead_pickaxe": "Lead Pickaxe",
       "advancements.darksider.descr": "Craft a Dark Steel Sword.",
-      "block.bigbraincraft.obstacle": "Obstacle",
+      "block.bigbraincraft.obstacle": "Obstacle Projector",
       "block.bigbraincraft.cobalt_ore": "Cobalt Ore",
       "item.bigbraincraft.sapphire_hoe": "Sapphire Hoe",
       "block.bigbraincraft.itemcollector": "Item Collector",
       "item.bigbraincraft.copper_pickaxe": "Copper Pickaxe",
+      "item.bigbraincraft.sould_energy_cell": "Soul Energy Cell",
       "item.bigbraincraft.sapphire_shovel": "Sapphire Shovel",
       "item.bigbraincraft.aluminium_axe": "Aluminium Axe",
       "block.bigbraincraft.silver_ore": "Silver Ore",
@@ -3233,7 +3251,6 @@
       "item.bigbraincraft.aluminium_sword": "Aluminium Sword",
       "item.bigbraincraft.lead_hoe": "Lead Hoe",
       "item.bigbraincraft.amethyst_armorbody": "Amethyst Chestplate",
-      "block.bigbraincraft.xp_incinerator": "Xp Incinerator",
       "item.bigbraincraft.silver_armorlegs": "Silver Leggings",
       "block.bigbraincraft.drill": "Drill",
       "advancements.sheissohot.title": "She Is So Hot...",

@@ -88,8 +88,8 @@
         "value": "Blocks.SOUL_SAND"
       }
     ],
-    "frequencyPerChunks": 36,
-    "frequencyOnChunk": 11,
+    "frequencyPerChunks": 42,
+    "frequencyOnChunk": 12,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 100
   }

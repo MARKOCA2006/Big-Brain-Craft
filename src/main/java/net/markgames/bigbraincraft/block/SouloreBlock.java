@@ -82,7 +82,7 @@ public class SouloreBlock extends BigbraincraftModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.SOUL_SAND.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 11)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(36, 0, 0, 100))));
+			}), block.getDefaultState(), 12)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(42, 0, 0, 100))));
 		}
 	}
 }

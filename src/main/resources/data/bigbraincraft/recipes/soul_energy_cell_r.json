@@ -1,0 +1,26 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:aluminium_ingot"
+    },
+    "1": {
+      "item": "bigbraincraft:soul"
+    },
+    "2": {
+      "item": "bigbraincraft:aluminium_ingot"
+    },
+    "4": {
+      "item": "bigbraincraft:aluminium_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:sould_energy_cell",
+    "count": 1
+  }
+}

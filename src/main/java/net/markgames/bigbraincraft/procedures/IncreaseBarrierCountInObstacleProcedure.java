@@ -12,7 +12,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.markgames.bigbraincraft.item.VoidEnergyItem;
 import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 import java.util.function.Supplier;
@@ -97,44 +96,13 @@ public class IncreaseBarrierCountInObstacleProcedure extends BigbraincraftModEle
 				}
 			}
 		}
-		if ((((new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) entity).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-							if (stack != null)
-								return stack.getCount();
-						}
-					}
-				}
-				return 0;
+		world.setBlockState(new BlockPos((int) x, (int) (y + (new Object() {
+			public double getValue(BlockPos pos, String tag) {
+				TileEntity tileEntity = world.getTileEntity(pos);
+				if (tileEntity != null)
+					return tileEntity.getTileData().getDouble(tag);
+				return -1;
 			}
-		}.getAmount((int) (0))) > 0) && (new ItemStack(VoidEnergyItem.block, (int) (1)).getItem() == (new Object() {
-			public ItemStack getItemStack(int sltid) {
-				Entity _ent = entity;
-				if (_ent instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) _ent).openContainer;
-					if (_current instanceof Supplier) {
-						Object invobj = ((Supplier) _current).get();
-						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
-						}
-					}
-				}
-				return ItemStack.EMPTY;
-			}
-		}.getItemStack((int) (0))).getItem()))) {
-			world.setBlockState(new BlockPos((int) x, (int) (y + (new Object() {
-				public double getValue(BlockPos pos, String tag) {
-					TileEntity tileEntity = world.getTileEntity(pos);
-					if (tileEntity != null)
-						return tileEntity.getTileData().getDouble(tag);
-					return -1;
-				}
-			}.getValue(new BlockPos((int) x, (int) y, (int) z), "barriers"))), (int) z), Blocks.BARRIER.getDefaultState(), 3);
-		}
+		}.getValue(new BlockPos((int) x, (int) y, (int) z), "barriers"))), (int) z), Blocks.BARRIER.getDefaultState(), 3);
 	}
 }

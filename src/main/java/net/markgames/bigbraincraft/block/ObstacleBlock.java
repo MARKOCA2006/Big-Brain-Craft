@@ -106,7 +106,7 @@ public class ObstacleBlock extends BigbraincraftModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Obstacle");
+						return new StringTextComponent("Obstacle Projector");
 					}
 
 					@Override
@@ -238,7 +238,7 @@ public class ObstacleBlock extends BigbraincraftModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Obstacle");
+			return new StringTextComponent("Obstacle Projector");
 		}
 
 		@Override

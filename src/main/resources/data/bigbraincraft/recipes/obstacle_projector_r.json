@@ -1,0 +1,42 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "2": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "6": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "7": {
+      "item": "bigbraincraft:sould_energy_cell"
+    },
+    "8": {
+      "item": "bigbraincraft:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:obstacle",
+    "count": 1
+  }
+}

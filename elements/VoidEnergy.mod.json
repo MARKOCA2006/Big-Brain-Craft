@@ -5,11 +5,11 @@
     "renderType": 0,
     "texture": "void_energy",
     "customModelName": "Normal",
-    "name": "Void Energy Cell",
+    "name": "Soul Energy Cell",
     "creativeTab": {
       "value": "CUSTOM:BigBrainTab"
     },
-    "stackSize": 64,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

@@ -12,7 +12,7 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class VoidEnergyItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:void_energy")
+	@ObjectHolder("bigbraincraft:sould_energy_cell")
 	public static final Item block = null;
 	public VoidEnergyItem(BigbraincraftModElements instance) {
 		super(instance, 320);
@@ -24,8 +24,8 @@ public class VoidEnergyItem extends BigbraincraftModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(BigBrainTabItemGroup.tab).maxStackSize(64));
-			setRegistryName("void_energy");
+			super(new Item.Properties().group(BigBrainTabItemGroup.tab).maxStackSize(16));
+			setRegistryName("soul_energy_cell");
 		}
 
 		@Override

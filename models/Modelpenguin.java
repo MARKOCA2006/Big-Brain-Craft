@@ -61,12 +61,6 @@ public static class Modelpenguin extends EntityModel<Entity> {
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks,
-			float netHeadYaw, float headPitch) {
-		// previously the render function, render code was moved to a method below
-	}
-
-	@Override
 	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red,
 			float green, float blue, float alpha) {
 		main.render(matrixStack, buffer, packedLight, packedOverlay);
@@ -76,5 +70,15 @@ public static class Modelpenguin extends EntityModel<Entity> {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;
 		modelRenderer.rotateAngleZ = z;
+	}
+
+	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
+		super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
+		this.head.rotateAngleY = f3 / (180F / (float) Math.PI);
+		this.head.rotateAngleX = f4 / (180F / (float) Math.PI);
+		this.right_foot.rotateAngleX = f2 / 20.f;
+		this.right_wing.rotateAngleX = f2 / 20.f;
+		this.left_wing.rotateAngleX = f2 / 20.f;
+		this.left_foot.rotateAngleX = f2 / 20.f;
 	}
 }

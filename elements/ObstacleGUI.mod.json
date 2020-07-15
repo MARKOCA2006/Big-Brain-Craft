@@ -50,6 +50,9 @@
         "type": "button",
         "data": {
           "text": "<",
+          "onClick": {
+            "name": "DecreaseBarrierCountInObstecale"
+          },
           "width": 20,
           "height": 40,
           "name": "<",
@@ -61,6 +64,9 @@
         "type": "button",
         "data": {
           "text": ">",
+          "onClick": {
+            "name": "IncreaseBarrierCountInObstacle"
+          },
           "width": 20,
           "height": 40,
           "name": ">",

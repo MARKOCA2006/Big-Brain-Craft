@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CobaltDust"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:CobaltDust"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:VoidEnergy"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Obstacle"
+    },
+    "name": "obstacle_projector_r",
+    "namespace": "mod"
+  }
+}
