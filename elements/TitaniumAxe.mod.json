@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "titanium_axe",
+    "customModelName": "Normal",
+    "name": "Titanium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 20,
+    "efficiency": 24.0,
+    "attackSpeed": 1.0,
+    "enchantability": 140,
+    "damageVsEntity": 60.0,
+    "usageCount": 6280,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

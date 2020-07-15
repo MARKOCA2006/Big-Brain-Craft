@@ -1,0 +1,38 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Drill",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Drill",
+          "x": 282,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 408,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:silver_ingot"
+    },
+    "1": {
+      "item": "bigbraincraft:silver_ingot"
+    },
+    "2": {
+      "item": "bigbraincraft:silver_ingot"
+    },
+    "3": {
+      "item": "bigbraincraft:silver_ingot"
+    },
+    "5": {
+      "item": "bigbraincraft:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:silver_armorhelmet",
+    "count": 1
+  }
+}

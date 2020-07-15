@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bigbraincraft:blocks/uranium_ore_block",
+    "particle": "bigbraincraft:blocks/uranium_ore_block"
+  }
+}

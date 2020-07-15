@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "aluminium_sword",
+    "customModelName": "Normal",
+    "name": "Aluminium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 8,
+    "damageVsEntity": 2.0,
+    "usageCount": 122,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "1": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:uranium_axe",
+    "count": 1
+  }
+}

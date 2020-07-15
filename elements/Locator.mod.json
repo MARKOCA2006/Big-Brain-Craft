@@ -1,0 +1,30 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "locator",
+    "customModelName": "Normal",
+    "name": "Locator",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 1.0,
+    "usageCount": 40,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onRightClickedInAir": {
+      "name": "LocatorRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "LocatorRightClickedInAir"
+    }
+  }
+}

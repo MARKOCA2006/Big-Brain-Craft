@@ -1,0 +1,39 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "2": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "3": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "4": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "5": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "6": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "7": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "8": {
+      "item": "bigbraincraft:ruby_gem"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:ruby_armorbody",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:zinc_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:zinc_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:zinc_dust"
+    },
+    "5": {
+      "item": "bigbraincraft:zinc_dust"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:zinc_armorboots",
+    "count": 1
+  }
+}

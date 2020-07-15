@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bigbraincraft:blocks/soul_fire",
+    "particle": "bigbraincraft:blocks/soul_fire"
+  }
+}

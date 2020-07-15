@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bigbraincraft:block/ruby_ore_block"
+    }
+  }
+}

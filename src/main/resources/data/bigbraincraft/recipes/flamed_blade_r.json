@@ -1,0 +1,30 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:blaze_rod"
+    },
+    "3": {
+      "item": "bigbraincraft:darksteel"
+    },
+    "4": {
+      "item": "minecraft:blaze_rod"
+    },
+    "6": {
+      "item": "bigbraincraft:carbonsword"
+    },
+    "7": {
+      "item": "bigbraincraft:darksteel"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:flamed_blade",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bigbraincraft:block/lead_ore_block"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amethyst_sword",
+    "customModelName": "Normal",
+    "name": "Amethyst Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 27,
+    "damageVsEntity": 4.0,
+    "usageCount": 614,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

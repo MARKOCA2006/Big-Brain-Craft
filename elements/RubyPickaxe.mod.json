@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ruby_pickaxe",
+    "customModelName": "Normal",
+    "name": "Ruby Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 14,
+    "efficiency": 19.0,
+    "attackSpeed": 1.0,
+    "enchantability": 98,
+    "damageVsEntity": 14.0,
+    "usageCount": 3811,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

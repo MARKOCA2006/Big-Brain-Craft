@@ -1,0 +1,87 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Obstacle Editor",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Obstacle Editor",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Void Energy: ",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Void Energy: ",
+          "x": 264,
+          "y": 186
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 408,
+          "y": 186
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<",
+          "width": 20,
+          "height": 40,
+          "name": "<",
+          "x": 372,
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": ">",
+          "width": 20,
+          "height": 40,
+          "name": ">",
+          "x": 462,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": true,
+          "name": "Slot #1",
+          "x": 408,
+          "y": 114
+        }
+      }
+    ]
+  }
+}

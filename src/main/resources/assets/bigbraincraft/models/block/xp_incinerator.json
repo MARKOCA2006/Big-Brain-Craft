@@ -1,0 +1,10 @@
+{
+  "parent": "bigbraincraft:custom/xp_incinerator",
+  "textures": {
+    "all": "bigbraincraft:blocks/furnace_front_on",
+    "particle": "bigbraincraft:blocks/furnace_front_on",
+    "furnace_side": "bigbraincraft:blocks/furnace_side",
+    "oak_log": "bigbraincraft:blocks/dark_log",
+    "furnace_front_on": "bigbraincraft:blocks/furnace_front_on"
+  }
+}

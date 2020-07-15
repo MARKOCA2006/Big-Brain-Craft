@@ -1,0 +1,74 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Smeltery",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Smeltery",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel: <BNBT:integer:remaining>%",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Fuel: <BNBT:integer:remaining>%",
+          "x": 480,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 318,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "name": "Slot #1",
+          "x": 318,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "name": "Slot #2",
+          "x": 480,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

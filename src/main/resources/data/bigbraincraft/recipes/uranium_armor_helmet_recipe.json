@@ -1,0 +1,29 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "1": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:uranium_dust"
+    },
+    "5": {
+      "item": "bigbraincraft:uranium_dust"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:uranium_armorhelmet",
+    "count": 1
+  }
+}

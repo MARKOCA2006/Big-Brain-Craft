@@ -1,0 +1,36 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "1": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "2": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "3": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "5": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "6": {
+      "item": "bigbraincraft:amethyst_gem"
+    },
+    "8": {
+      "item": "bigbraincraft:amethyst_gem"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:amethyst_armorlegs",
+    "count": 1
+  }
+}

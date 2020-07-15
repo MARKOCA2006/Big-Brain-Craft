@@ -1,0 +1,26 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:copper_ingot"
+    },
+    "2": {
+      "item": "bigbraincraft:copper_ingot"
+    },
+    "3": {
+      "item": "bigbraincraft:copper_ingot"
+    },
+    "5": {
+      "item": "bigbraincraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:copper_armorboots",
+    "count": 1
+  }
+}

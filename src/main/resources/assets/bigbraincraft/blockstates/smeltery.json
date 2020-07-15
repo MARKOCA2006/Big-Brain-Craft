@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bigbraincraft:block/smeltery"
+    },
+    "facing=east": {
+      "model": "bigbraincraft:block/smeltery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bigbraincraft:block/smeltery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bigbraincraft:block/smeltery",
+      "y": 270
+    }
+  }
+}

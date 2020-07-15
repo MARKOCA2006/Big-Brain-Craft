@@ -1,0 +1,13 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bigbraincraft:sapphire_ore_block"
+    }
+  ],
+  "result": {
+    "item": "bigbraincraft:sapphire_gem",
+    "count": 9
+  }
+}

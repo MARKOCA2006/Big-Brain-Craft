@@ -1,0 +1,30 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:titanium_ingot"
+    },
+    "1": {
+      "item": "bigbraincraft:titanium_ingot"
+    },
+    "2": {
+      "item": "bigbraincraft:titanium_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:titanium_axe",
+    "count": 1
+  }
+}

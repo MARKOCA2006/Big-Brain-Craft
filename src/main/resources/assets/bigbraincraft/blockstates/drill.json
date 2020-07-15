@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bigbraincraft:block/drill"
+    },
+    "facing=east": {
+      "model": "bigbraincraft:block/drill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bigbraincraft:block/drill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bigbraincraft:block/drill",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "bigbraincraft:block/drill",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "bigbraincraft:block/drill",
+      "x": 90
+    }
+  }
+}

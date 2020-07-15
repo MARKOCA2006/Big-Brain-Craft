@@ -1,0 +1,12 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:smelting",
+  "experience": 4.199999999999999,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bigbraincraft:lead_ore"
+  },
+  "result": {
+    "item": "bigbraincraft:lead_ingot"
+  }
+}

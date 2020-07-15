@@ -1,0 +1,11 @@
+{
+  "_fv": 8,
+  "_type": "tab",
+  "definition": {
+    "name": "Big Brain Craft",
+    "icon": {
+      "value": "CUSTOM:Multitool"
+    },
+    "showSearch": true
+  }
+}

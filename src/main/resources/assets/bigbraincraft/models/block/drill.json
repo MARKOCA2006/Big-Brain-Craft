@@ -1,0 +1,10 @@
+{
+  "parent": "bigbraincraft:custom/drill",
+  "textures": {
+    "all": "bigbraincraft:blocks/iron_block",
+    "particle": "bigbraincraft:blocks/iron_block",
+    "iron_block": "bigbraincraft:blocks/dandelion_metal",
+    "iron_block_vanilla": "bigbraincraft:blocks/iron_block",
+    "bone_block_side": "bigbraincraft:blocks/bone_block_side"
+  }
+}

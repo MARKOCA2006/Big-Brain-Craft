@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bigbraincraft:block/zinc_ore_block"
+    }
+  }
+}

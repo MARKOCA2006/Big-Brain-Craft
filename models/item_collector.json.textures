@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "smoker_top": "smoker_top",
+        "bee_nest_side": "bee_nest_side",
+        "andesite": "andesite"
+      },
+      "name": "default"
+    }
+  }
+}

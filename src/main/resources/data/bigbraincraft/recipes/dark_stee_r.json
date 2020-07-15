@@ -1,0 +1,42 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:steel"
+    },
+    "1": {
+      "item": "bigbraincraft:steel"
+    },
+    "2": {
+      "item": "bigbraincraft:steel"
+    },
+    "3": {
+      "item": "bigbraincraft:steel"
+    },
+    "4": {
+      "item": "minecraft:coal_block"
+    },
+    "5": {
+      "item": "bigbraincraft:steel"
+    },
+    "6": {
+      "item": "bigbraincraft:steel"
+    },
+    "7": {
+      "item": "bigbraincraft:steel"
+    },
+    "8": {
+      "item": "bigbraincraft:steel"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:darksteel",
+    "count": 2
+  }
+}

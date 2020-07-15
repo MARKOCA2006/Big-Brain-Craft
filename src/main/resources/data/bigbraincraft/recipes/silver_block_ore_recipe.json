@@ -1,0 +1,13 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bigbraincraft:silver_ore_block"
+    }
+  ],
+  "result": {
+    "item": "bigbraincraft:silver_ingot",
+    "count": 9
+  }
+}

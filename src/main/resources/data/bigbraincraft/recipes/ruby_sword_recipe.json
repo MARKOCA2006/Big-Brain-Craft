@@ -1,0 +1,24 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "1": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:ruby_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dark_steel_sword",
+    "customModelName": "Normal",
+    "name": "Dark Steel Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 3.0,
+    "attackSpeed": 0.7999999999999999,
+    "enchantability": 4,
+    "damageVsEntity": 8.5,
+    "usageCount": 2130,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darksteel"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "3": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "4": {
+      "item": "bigbraincraft:waterprooffeather"
+    },
+    "5": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "7": {
+      "item": "bigbraincraft:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:hazmatkit",
+    "count": 1
+  }
+}

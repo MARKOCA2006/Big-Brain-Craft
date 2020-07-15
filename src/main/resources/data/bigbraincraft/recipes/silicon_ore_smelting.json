@@ -1,0 +1,12 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bigbraincraft:silicon_ore"
+  },
+  "result": {
+    "item": "bigbraincraft:silicon_dust"
+  }
+}

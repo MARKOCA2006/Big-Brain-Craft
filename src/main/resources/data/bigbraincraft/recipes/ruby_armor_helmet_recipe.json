@@ -1,0 +1,29 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "1": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "2": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "3": {
+      "item": "bigbraincraft:ruby_gem"
+    },
+    "5": {
+      "item": "bigbraincraft:ruby_gem"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:ruby_armorhelmet",
+    "count": 1
+  }
+}

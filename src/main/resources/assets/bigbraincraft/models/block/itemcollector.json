@@ -1,0 +1,10 @@
+{
+  "parent": "bigbraincraft:custom/item_collector",
+  "textures": {
+    "all": "bigbraincraft:blocks/smoker_top",
+    "particle": "bigbraincraft:blocks/smoker_top",
+    "smoker_top": "bigbraincraft:blocks/smoker_top",
+    "bee_nest_side": "bigbraincraft:blocks/bee_nest_side",
+    "andesite": "bigbraincraft:blocks/andesite"
+  }
+}

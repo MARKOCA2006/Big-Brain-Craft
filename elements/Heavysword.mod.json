@@ -1,0 +1,31 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "heavy_sword",
+    "customModelName": "Normal",
+    "name": "Heavy Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.2,
+    "enchantability": 2,
+    "damageVsEntity": 20.0,
+    "usageCount": 1045,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Steel"
+      }
+    ],
+    "onItemInUseTick": {
+      "name": "HeavyswordToolInHandTick"
+    }
+  }
+}

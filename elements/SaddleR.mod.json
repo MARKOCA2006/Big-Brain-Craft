@@ -1,0 +1,46 @@
+{
+  "_fv": 8,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.TRIPWIRE_HOOK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.TRIPWIRE_HOOK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.SADDLE"
+    },
+    "name": "saddle_r",
+    "namespace": "mod"
+  }
+}

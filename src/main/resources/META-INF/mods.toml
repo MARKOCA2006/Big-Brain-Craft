@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="bigbraincraft"
+version="1.0.0"
+displayName="Big Brain Craft"
+credits="Codes: MarkGames01, Textures: Valfloralis"
+displayURL="https://mcreator.net"
+authors="MarkGames"
+
+[[dependencies.bigbraincraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

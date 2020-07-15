@@ -1,0 +1,12 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:smelting",
+  "experience": 0.98,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bigbraincraft:copper_ore"
+  },
+  "result": {
+    "item": "bigbraincraft:copper_ingot"
+  }
+}

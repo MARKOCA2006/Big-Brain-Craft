@@ -1,0 +1,47 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "copper_head",
+    "enableBody": true,
+    "textureBody": "copper_body",
+    "enableLeggings": true,
+    "textureLeggings": "copper_leggings",
+    "enableBoots": true,
+    "textureBoots": "copper_boots",
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "armorTextureFile": "copper",
+    "helmetName": "Copper Helmet",
+    "bodyName": "Copper Chestplate",
+    "leggingsName": "Copper Leggings",
+    "bootsName": "Copper Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 21,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 3,
+    "enchantability": 13,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

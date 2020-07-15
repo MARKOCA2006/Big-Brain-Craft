@@ -1,0 +1,9 @@
+{
+  "parent": "bigbraincraft:custom/conveyor_belt",
+  "textures": {
+    "all": "bigbraincraft:blocks/acacia_planks",
+    "particle": "bigbraincraft:blocks/acacia_planks",
+    "bedrock": "bigbraincraft:blocks/bedrock",
+    "acacia_planks": "bigbraincraft:blocks/acacia_planks"
+  }
+}

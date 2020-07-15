@@ -1,0 +1,24 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "1": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:silicon_sword",
+    "count": 1
+  }
+}

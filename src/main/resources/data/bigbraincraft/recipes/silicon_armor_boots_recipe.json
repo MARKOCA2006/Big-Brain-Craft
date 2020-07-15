@@ -1,0 +1,26 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "5": {
+      "item": "bigbraincraft:silicon_dust"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:silicon_armorboots",
+    "count": 1
+  }
+}

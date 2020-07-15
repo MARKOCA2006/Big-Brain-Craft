@@ -1,0 +1,39 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "4": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "5": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "6": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "7": {
+      "item": "bigbraincraft:silicon_dust"
+    },
+    "8": {
+      "item": "bigbraincraft:silicon_dust"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:silicon_armorbody",
+    "count": 1
+  }
+}

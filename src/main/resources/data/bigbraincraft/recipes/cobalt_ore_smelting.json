@@ -1,0 +1,12 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:smelting",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bigbraincraft:cobalt_ore"
+  },
+  "result": {
+    "item": "bigbraincraft:cobalt_dust"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:smelting",
+  "experience": 1.33,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bigbraincraft:amethyst_ore"
+  },
+  "result": {
+    "item": "bigbraincraft:amethyst_gem"
+  }
+}

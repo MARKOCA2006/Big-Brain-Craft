@@ -1,0 +1,13 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bigbraincraft:uranium_ore_block"
+    }
+  ],
+  "result": {
+    "item": "bigbraincraft:uranium_dust",
+    "count": 9
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "2": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "3": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "4": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "5": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "6": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "7": {
+      "item": "bigbraincraft:lead_ingot"
+    },
+    "8": {
+      "item": "bigbraincraft:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:lead_armorbody",
+    "count": 1
+  }
+}

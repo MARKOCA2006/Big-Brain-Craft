@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "iron_block": "dandelion_metal",
+        "iron_block_vanilla": "iron_block",
+        "bone_block_side": "bone_block_side"
+      },
+      "name": "default"
+    }
+  }
+}

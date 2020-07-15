@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bigbraincraft:block/silicon_ore_block"
+    }
+  }
+}

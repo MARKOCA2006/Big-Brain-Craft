@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bigbraincraft:blocks/soul_ore",
+    "up": "bigbraincraft:blocks/soul_ore",
+    "north": "bigbraincraft:blocks/soul_ore",
+    "east": "bigbraincraft:blocks/soul_ore",
+    "south": "bigbraincraft:blocks/soul_ore",
+    "west": "bigbraincraft:blocks/soul_ore",
+    "particle": "bigbraincraft:blocks/soul_ore"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bigbraincraft:block/conveyorbelt"
+    },
+    "facing=east": {
+      "model": "bigbraincraft:block/conveyorbelt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bigbraincraft:block/conveyorbelt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bigbraincraft:block/conveyorbelt",
+      "y": 270
+    }
+  }
+}

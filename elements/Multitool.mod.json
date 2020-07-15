@@ -1,0 +1,30 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "multitool",
+    "customModelName": "Normal",
+    "name": "Multitool",
+    "specialInfo": [
+      "Swiss made"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 2,
+    "efficiency": 4.5,
+    "attackSpeed": 1.3,
+    "enchantability": 3,
+    "damageVsEntity": 3.5,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ]
+  }
+}

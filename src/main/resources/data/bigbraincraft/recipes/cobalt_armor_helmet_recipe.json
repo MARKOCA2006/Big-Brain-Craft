@@ -1,0 +1,29 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "1": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "2": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "3": {
+      "item": "bigbraincraft:cobalt_dust"
+    },
+    "5": {
+      "item": "bigbraincraft:cobalt_dust"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:cobalt_armorhelmet",
+    "count": 1
+  }
+}

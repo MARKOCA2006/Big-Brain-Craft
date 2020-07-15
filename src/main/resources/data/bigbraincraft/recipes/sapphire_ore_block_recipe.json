@@ -1,0 +1,42 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "1": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "2": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "3": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "4": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "5": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "6": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "7": {
+      "item": "bigbraincraft:sapphire_gem"
+    },
+    "8": {
+      "item": "bigbraincraft:sapphire_gem"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:sapphire_ore_block",
+    "count": 1
+  }
+}

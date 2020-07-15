@@ -1,0 +1,10 @@
+{
+  "parent": "bigbraincraft:custom/smeltery_on",
+  "textures": {
+    "all": "bigbraincraft:blocks/furnace_front_on",
+    "particle": "bigbraincraft:blocks/furnace_front_on",
+    "furnace_side": "bigbraincraft:blocks/furnace_side",
+    "smoker_side": "bigbraincraft:blocks/smoker_side",
+    "furnace_front_on": "bigbraincraft:blocks/furnace_front_on"
+  }
+}

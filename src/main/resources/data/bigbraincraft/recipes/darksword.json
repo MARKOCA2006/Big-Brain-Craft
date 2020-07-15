@@ -1,0 +1,30 @@
+{
+  "group": "bigbraincraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    "34 ",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "bigbraincraft:darksteel"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "bigbraincraft:darksteel"
+    },
+    "6": {
+      "item": "minecraft:diamond_sword"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "bigbraincraft:darksteelsword",
+    "count": 1
+  }
+}
