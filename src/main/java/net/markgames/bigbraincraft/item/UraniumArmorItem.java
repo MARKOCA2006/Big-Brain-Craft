@@ -21,15 +21,18 @@ import net.markgames.bigbraincraft.procedures.RadiationProcedure;
 import net.markgames.bigbraincraft.itemgroup.BigBrainTabItemGroup;
 import net.markgames.bigbraincraft.BigbraincraftModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @BigbraincraftModElements.ModElement.Tag
 public class UraniumArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:uranium_armorhelmet")
+	@ObjectHolder("bigbraincraft:uranium_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:uranium_armorbody")
+	@ObjectHolder("bigbraincraft:uranium_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:uranium_armorlegs")
+	@ObjectHolder("bigbraincraft:uranium_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:uranium_armorboots")
+	@ObjectHolder("bigbraincraft:uranium_armor_boots")
 	public static final Item boots = null;
 	public UraniumArmorItem(BigbraincraftModElements instance) {
 		super(instance, 87);
@@ -76,16 +79,16 @@ public class UraniumArmorItem extends BigbraincraftModElements.ModElement {
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
 				super.onArmorTick(itemstack, world, entity);
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					RadiationProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("uranium_armorhelmet"));
+		}.setRegistryName("uranium_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -94,16 +97,16 @@ public class UraniumArmorItem extends BigbraincraftModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					RadiationProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("uranium_armorbody"));
+		}.setRegistryName("uranium_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -112,16 +115,16 @@ public class UraniumArmorItem extends BigbraincraftModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					RadiationProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("uranium_armorlegs"));
+		}.setRegistryName("uranium_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -130,15 +133,15 @@ public class UraniumArmorItem extends BigbraincraftModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					RadiationProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("uranium_armorboots"));
+		}.setRegistryName("uranium_armor_boots"));
 	}
 }

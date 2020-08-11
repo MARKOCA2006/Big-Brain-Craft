@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class RubyArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:ruby_armorhelmet")
+	@ObjectHolder("bigbraincraft:ruby_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:ruby_armorbody")
+	@ObjectHolder("bigbraincraft:ruby_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:ruby_armorlegs")
+	@ObjectHolder("bigbraincraft:ruby_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:ruby_armorboots")
+	@ObjectHolder("bigbraincraft:ruby_armor_boots")
 	public static final Item boots = null;
 	public RubyArmorItem(BigbraincraftModElements instance) {
 		super(instance, 96);
@@ -69,24 +69,24 @@ public class RubyArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorhelmet"));
+		}.setRegistryName("ruby_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorbody"));
+		}.setRegistryName("ruby_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorlegs"));
+		}.setRegistryName("ruby_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/ruby_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("ruby_armorboots"));
+		}.setRegistryName("ruby_armor_boots"));
 	}
 }

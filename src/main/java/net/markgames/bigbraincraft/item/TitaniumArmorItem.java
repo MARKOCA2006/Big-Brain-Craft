@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class TitaniumArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:titanium_armorhelmet")
+	@ObjectHolder("bigbraincraft:titanium_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:titanium_armorbody")
+	@ObjectHolder("bigbraincraft:titanium_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:titanium_armorlegs")
+	@ObjectHolder("bigbraincraft:titanium_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:titanium_armorboots")
+	@ObjectHolder("bigbraincraft:titanium_armor_boots")
 	public static final Item boots = null;
 	public TitaniumArmorItem(BigbraincraftModElements instance) {
 		super(instance, 68);
@@ -69,24 +69,24 @@ public class TitaniumArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titanium_armorhelmet"));
+		}.setRegistryName("titanium_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titanium_armorbody"));
+		}.setRegistryName("titanium_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titanium_armorlegs"));
+		}.setRegistryName("titanium_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/titanium_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("titanium_armorboots"));
+		}.setRegistryName("titanium_armor_boots"));
 	}
 }

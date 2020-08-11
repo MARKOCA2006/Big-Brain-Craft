@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Magnetic Shift",
+    "type": "WEAPON",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 7,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true
+  }
+}

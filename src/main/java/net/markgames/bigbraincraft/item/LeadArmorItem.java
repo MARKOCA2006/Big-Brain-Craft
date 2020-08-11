@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class LeadArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:lead_armorhelmet")
+	@ObjectHolder("bigbraincraft:lead_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:lead_armorbody")
+	@ObjectHolder("bigbraincraft:lead_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:lead_armorlegs")
+	@ObjectHolder("bigbraincraft:lead_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:lead_armorboots")
+	@ObjectHolder("bigbraincraft:lead_armor_boots")
 	public static final Item boots = null;
 	public LeadArmorItem(BigbraincraftModElements instance) {
 		super(instance, 102);
@@ -69,24 +69,24 @@ public class LeadArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/lead_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorhelmet"));
+		}.setRegistryName("lead_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/lead_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorbody"));
+		}.setRegistryName("lead_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/lead_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorlegs"));
+		}.setRegistryName("lead_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/lead_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("lead_armorboots"));
+		}.setRegistryName("lead_armor_boots"));
 	}
 }

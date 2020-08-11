@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "disc",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SiliconDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CobaltDust"
+      },
+      {
+        "value": "CUSTOM:AluminiumIngot"
+      },
+      {
+        "value": "CUSTOM:CobaltDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SiliconDust"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Basedisc"
+    },
+    "name": "basediscr",
+    "namespace": "minecraft"
+  }
+}

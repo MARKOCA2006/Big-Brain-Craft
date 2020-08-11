@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class SapphireArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:sapphire_armorhelmet")
+	@ObjectHolder("bigbraincraft:sapphire_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:sapphire_armorbody")
+	@ObjectHolder("bigbraincraft:sapphire_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:sapphire_armorlegs")
+	@ObjectHolder("bigbraincraft:sapphire_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:sapphire_armorboots")
+	@ObjectHolder("bigbraincraft:sapphire_armor_boots")
 	public static final Item boots = null;
 	public SapphireArmorItem(BigbraincraftModElements instance) {
 		super(instance, 262);
@@ -69,24 +69,24 @@ public class SapphireArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/sapphire_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("sapphire_armorhelmet"));
+		}.setRegistryName("sapphire_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/sapphire_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("sapphire_armorbody"));
+		}.setRegistryName("sapphire_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/sapphire_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("sapphire_armorlegs"));
+		}.setRegistryName("sapphire_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/sapphire_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("sapphire_armorboots"));
+		}.setRegistryName("sapphire_armor_boots"));
 	}
 }

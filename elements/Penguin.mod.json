@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "mob",
   "definition": {
     "mobName": "Penguin",
@@ -54,6 +54,8 @@
     "xpAmount": 3,
     "waterMob": false,
     "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -85,11 +87,11 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"follow_entity\"><field name=\"speed\">1</field><field name=\"maxrange\">17</field><field name=\"followarea\">5</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.FISH#0</field></block></value><next><block type=\"look_around\"><next><block type=\"watch_closest_entity\"><field name=\"radius\">6</field><field name=\"entity\">EntityAgeable</field><next><block type=\"swim_in_water\"><next><block type=\"swim\"><field name=\"speed\">1</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": true,
+    "tameable": false,
     "breedTriggerItems": [
       {
         "value": "Items.FISH#0"

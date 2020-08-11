@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class CopperArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:copper_armorhelmet")
+	@ObjectHolder("bigbraincraft:copper_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:copper_armorbody")
+	@ObjectHolder("bigbraincraft:copper_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:copper_armorlegs")
+	@ObjectHolder("bigbraincraft:copper_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:copper_armorboots")
+	@ObjectHolder("bigbraincraft:copper_armor_boots")
 	public static final Item boots = null;
 	public CopperArmorItem(BigbraincraftModElements instance) {
 		super(instance, 20);
@@ -69,24 +69,24 @@ public class CopperArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorhelmet"));
+		}.setRegistryName("copper_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorbody"));
+		}.setRegistryName("copper_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorlegs"));
+		}.setRegistryName("copper_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/copper_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("copper_armorboots"));
+		}.setRegistryName("copper_armor_boots"));
 	}
 }

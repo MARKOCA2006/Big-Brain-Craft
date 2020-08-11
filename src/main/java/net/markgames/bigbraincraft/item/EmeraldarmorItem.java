@@ -22,15 +22,18 @@ import net.markgames.bigbraincraft.procedures.EmeraldarmorBodyTickEventProcedure
 import net.markgames.bigbraincraft.itemgroup.BigBrainTabItemGroup;
 import net.markgames.bigbraincraft.BigbraincraftModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @BigbraincraftModElements.ModElement.Tag
 public class EmeraldarmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:emeraldarmorhelmet")
+	@ObjectHolder("bigbraincraft:emeraldarmor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:emeraldarmorbody")
+	@ObjectHolder("bigbraincraft:emeraldarmor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:emeraldarmorlegs")
+	@ObjectHolder("bigbraincraft:emeraldarmor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:emeraldarmorboots")
+	@ObjectHolder("bigbraincraft:emeraldarmor_boots")
 	public static final Item boots = null;
 	public EmeraldarmorItem(BigbraincraftModElements instance) {
 		super(instance, 11);
@@ -73,7 +76,7 @@ public class EmeraldarmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/emerald_armor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorhelmet"));
+		}.setRegistryName("emeraldarmor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
@@ -82,27 +85,27 @@ public class EmeraldarmorItem extends BigbraincraftModElements.ModElement {
 
 			@Override
 			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					EmeraldarmorBodyTickEventProcedure.executeProcedure($_dependencies);
 				}
 			}
-		}.setRegistryName("emeraldarmorbody"));
+		}.setRegistryName("emeraldarmor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/emerald_armor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorlegs"));
+		}.setRegistryName("emeraldarmor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/emerald_armor_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("emeraldarmorboots"));
+		}.setRegistryName("emeraldarmor_boots"));
 	}
 }

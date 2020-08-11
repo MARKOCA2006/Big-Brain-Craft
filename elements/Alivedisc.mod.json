@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "alive_disc",
+    "name": "Music Disc",
+    "description": "ALIVE",
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "music": {
+      "value": "CUSTOM:alive_disc"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

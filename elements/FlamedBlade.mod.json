@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -24,6 +24,8 @@
         "value": "Items.BLAZE_ROD"
       }
     ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "onItemInUseTick": {
       "name": "FlamedBladeToolInHandTick"
     }

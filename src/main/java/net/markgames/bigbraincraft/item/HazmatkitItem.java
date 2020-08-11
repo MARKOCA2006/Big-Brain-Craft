@@ -38,7 +38,7 @@ public class HazmatkitItem extends BigbraincraftModElements.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-			return 0;
+			return 1;
 		}
 
 		@Override

@@ -25,7 +25,7 @@ public class VoidEnergyItem extends BigbraincraftModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(BigBrainTabItemGroup.tab).maxStackSize(16));
-			setRegistryName("soul_energy_cell");
+			setRegistryName("sould_energy_cell");
 		}
 
 		@Override

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bigbraincraft:block/item_collector"
+    },
+    "facing=east": {
+      "model": "bigbraincraft:block/item_collector",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bigbraincraft:block/item_collector",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bigbraincraft:block/item_collector",
+      "y": 270
+    }
+  }
+}

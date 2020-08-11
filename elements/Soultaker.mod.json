@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Soul Taker",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": false
+  }
+}

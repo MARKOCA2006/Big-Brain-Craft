@@ -1,0 +1,17 @@
+{
+  "_fv": 10,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "maestro_disc",
+    "name": "Music Disc",
+    "description": "Maestro",
+    "creativeTab": {
+      "value": "CUSTOM:BigBrainTab"
+    },
+    "music": {
+      "value": "CUSTOM:maestro_disc"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

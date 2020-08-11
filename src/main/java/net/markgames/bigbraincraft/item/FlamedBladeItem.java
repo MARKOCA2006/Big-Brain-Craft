@@ -16,6 +16,9 @@ import net.markgames.bigbraincraft.procedures.FlamedBladeToolInHandTickProcedure
 import net.markgames.bigbraincraft.itemgroup.BigBrainTabItemGroup;
 import net.markgames.bigbraincraft.BigbraincraftModElements;
 
+import java.util.Map;
+import java.util.HashMap;
+
 @BigbraincraftModElements.ModElement.Tag
 public class FlamedBladeItem extends BigbraincraftModElements.ModElement {
 	@ObjectHolder("bigbraincraft:flamed_blade")
@@ -54,11 +57,11 @@ public class FlamedBladeItem extends BigbraincraftModElements.ModElement {
 			@Override
 			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
 				super.inventoryTick(itemstack, world, entity, slot, selected);
-				int x = (int) entity.getPosX();
-				int y = (int) entity.getPosY();
-				int z = (int) entity.getPosZ();
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
 				if (selected) {
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					$_dependencies.put("itemstack", itemstack);
 					FlamedBladeToolInHandTickProcedure.executeProcedure($_dependencies);

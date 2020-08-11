@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class ZincArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:zinc_armorhelmet")
+	@ObjectHolder("bigbraincraft:zinc_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:zinc_armorbody")
+	@ObjectHolder("bigbraincraft:zinc_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:zinc_armorlegs")
+	@ObjectHolder("bigbraincraft:zinc_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:zinc_armorboots")
+	@ObjectHolder("bigbraincraft:zinc_armor_boots")
 	public static final Item boots = null;
 	public ZincArmorItem(BigbraincraftModElements instance) {
 		super(instance, 77);
@@ -69,24 +69,24 @@ public class ZincArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorhelmet"));
+		}.setRegistryName("zinc_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorbody"));
+		}.setRegistryName("zinc_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorlegs"));
+		}.setRegistryName("zinc_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/zinc_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("zinc_armorboots"));
+		}.setRegistryName("zinc_armor_boots"));
 	}
 }

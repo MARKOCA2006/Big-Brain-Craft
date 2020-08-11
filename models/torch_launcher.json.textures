@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "oak_planks": "oak_planks",
+        "stone_bricks": "furnace_side",
+        "spruce_log": "spruce_log"
+      },
+      "name": "default"
+    }
+  }
+}

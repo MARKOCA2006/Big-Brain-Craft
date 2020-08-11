@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -21,6 +21,10 @@
     "bodyName": "Emerald Body",
     "leggingsName": "Emerald Leggings",
     "bootsName": "Emerald Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

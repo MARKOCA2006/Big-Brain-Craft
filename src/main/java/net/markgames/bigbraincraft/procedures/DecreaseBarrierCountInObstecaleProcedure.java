@@ -1,6 +1,6 @@
 package net.markgames.bigbraincraft.procedures;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.inventory.container.Slot;
@@ -21,7 +21,7 @@ public class DecreaseBarrierCountInObstecaleProcedure extends BigbraincraftModEl
 		super(instance, 321);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure DecreaseBarrierCountInObstecale!");
 			return;
@@ -43,11 +43,11 @@ public class DecreaseBarrierCountInObstecaleProcedure extends BigbraincraftModEl
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
-		if (!world.isRemote) {
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
+		if (!world.getWorld().isRemote) {
 			BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 			TileEntity _tileEntity = world.getTileEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
@@ -59,8 +59,8 @@ public class DecreaseBarrierCountInObstecaleProcedure extends BigbraincraftModEl
 							return tileEntity.getTileData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(new BlockPos((int) x, (int) y, (int) z), "barriers")) - 1));
-			world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+				}.getValue(new BlockPos((int) x, (int) y, (int) z), "barriers")) + 1));
+			world.getWorld().notifyBlockUpdate(_bp, _bs, _bs, 3);
 		}
 		{
 			Entity _ent = entity;

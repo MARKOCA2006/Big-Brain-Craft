@@ -1,1 +1,65 @@
-{}
+{
+  "plasma_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:plasma",
+        "stream": true
+      }
+    ]
+  },
+  "breaker_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:breaker",
+        "stream": true
+      }
+    ]
+  },
+  "hope_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:hope",
+        "stream": true
+      }
+    ]
+  },
+  "alive_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:alive",
+        "stream": true
+      }
+    ]
+  },
+  "eminem-godzilla_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:eminem_-_godzilla",
+        "stream": true
+      }
+    ]
+  },
+  "hyped_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:hyped",
+        "stream": true
+      }
+    ]
+  },
+  "maestro_disc": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "bigbraincraft:maestro",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -20,13 +20,13 @@ import net.markgames.bigbraincraft.BigbraincraftModElements;
 
 @BigbraincraftModElements.ModElement.Tag
 public class AmethystArmorItem extends BigbraincraftModElements.ModElement {
-	@ObjectHolder("bigbraincraft:amethyst_armorhelmet")
+	@ObjectHolder("bigbraincraft:amethyst_armor_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("bigbraincraft:amethyst_armorbody")
+	@ObjectHolder("bigbraincraft:amethyst_armor_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("bigbraincraft:amethyst_armorlegs")
+	@ObjectHolder("bigbraincraft:amethyst_armor_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("bigbraincraft:amethyst_armorboots")
+	@ObjectHolder("bigbraincraft:amethyst_armor_boots")
 	public static final Item boots = null;
 	public AmethystArmorItem(BigbraincraftModElements instance) {
 		super(instance, 283);
@@ -69,24 +69,24 @@ public class AmethystArmorItem extends BigbraincraftModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorhelmet"));
+		}.setRegistryName("amethyst_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorbody"));
+		}.setRegistryName("amethyst_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorlegs"));
+		}.setRegistryName("amethyst_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(BigBrainTabItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "bigbraincraft:textures/models/armor/amethyst_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("amethyst_armorboots"));
+		}.setRegistryName("amethyst_armor_boots"));
 	}
 }

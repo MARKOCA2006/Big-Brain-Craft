@@ -1,0 +1,9 @@
+{
+  "group": "disc",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "bigbraincraft:basedisc"
+  },
+  "result": "minecraft:music_disc_blocks"
+}

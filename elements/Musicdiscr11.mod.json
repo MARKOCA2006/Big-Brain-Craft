@@ -1,0 +1,20 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "disc",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:Basedisc"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "Items.RECORD_BLOCKS"
+    },
+    "name": "musicdiscr_11",
+    "namespace": "mod"
+  }
+}
